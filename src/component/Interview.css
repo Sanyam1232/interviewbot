@@ -1,0 +1,67 @@
+.interview {
+  text-align: center;
+  margin: 20px auto; /* Center the interview component */
+  max-width: 600px; /* Limit the width of the interview component */
+}
+
+.permission-section p,
+.name-section p {
+  margin-bottom: 10px;
+}
+
+textarea {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%; /* Make the textarea width 100% */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 10px; /* Add some space between buttons and other elements */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect on hover */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.name-input {
+  padding: 10px;
+  width: 100%; /* Make the input width 100% */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.name-section p {
+  margin-bottom: 10px;
+}
+
+.question {
+  border: 1px solid #ccc; /* Add border around the question */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.interview-section button {
+  display: block; /* Make the buttons block elements */
+  width: 45%; /* Set the width of buttons */
+  margin: 10px auto; /* Center buttons horizontally with some margin */
+}
+
+.interview-section button:first-child {
+  float: left; /* Align the first button to the left */
+}
+
+.interview-section button:last-child {
+  float: right; /* Align the last button to the right */
+}

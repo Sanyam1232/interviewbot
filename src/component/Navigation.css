@@ -1,0 +1,37 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+}
+
+.left-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #45a049;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
